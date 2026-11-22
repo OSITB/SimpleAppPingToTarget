@@ -19,6 +19,7 @@
         { "path": "<PRODUCTS>/SimpleAppPingToTarget.app", "id": "000000000000000000000120", "type": "wrapper.application", "index": false },
       ],
     },
+    { "path": "README.md", "target-membership": [ "SimpleAppPingToTarget/resources" ] },
   ],
   "targets": [
     {
@@ -32,9 +33,9 @@
         "resources",
       ],
       "build-settings": {
-        "CODE_SIGN_STYLE": "Automatic",
+        "CODE_SIGN_STYLE": "Manual",
         "CURRENT_PROJECT_VERSION": "1",
-        "DEVELOPMENT_TEAM": "M36R6S95F9",
+        "DEVELOPMENT_TEAM": "",
         "ENABLE_APP_SANDBOX": "NO",
         "ENABLE_PREVIEWS": "YES",
         "GENERATE_INFOPLIST_FILE": "YES",
@@ -53,6 +54,7 @@
         "MARKETING_VERSION": "1.0",
         "PRODUCT_BUNDLE_IDENTIFIER": "personal.forme",
         "PRODUCT_NAME": "$(TARGET_NAME)",
+        "PROVISIONING_PROFILE_SPECIFIER": "",
         "REGISTER_APP_GROUPS": "YES",
         "SDKROOT": "auto",
         "STRING_CATALOG_GENERATE_SYMBOLS": "YES",
